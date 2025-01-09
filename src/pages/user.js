@@ -183,6 +183,7 @@ const User = () => {
                   <Card className="shadow-sm">
                     <Card.Body>
                       <Card.Title>{user.name}</Card.Title>
+                      <Card.Title>Clave del usuario: <span className="text-secondary">{user.id}</span></Card.Title>
                       <div className="d-flex justify-content-start">
                         <ButtonGroup className="d-flex gap-2">
                           <Button variant="primary" size="sm" onClick={() => handleEditUser(user)}>

@@ -347,7 +347,7 @@ const Product = () => {
                 </Form.Control>
               </Form.Group>
               <Form.Group>
-                <Form.Label>ID de Usuario</Form.Label>
+                <Form.Label>Clave del Usuario</Form.Label>
                 <Form.Control
                   type="text"
                   name="userId"
